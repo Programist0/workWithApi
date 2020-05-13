@@ -1,0 +1,72 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/* заготовка под погоду
+.main_block{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.column{
+	height: 400px;
+	width: 300px;
+}
+
+.header{
+	height: 20%;
+	border: 1px solid #999;
+}
+
+.content{
+	height: 75%;
+	margin-top: 5%;
+	border: 1px solid #999;
+}
+*/
+
+.main_block{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+}
+
+.info, .content{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	height: 100px;
+	width: 800px;
+	border: 1px solid black;
+}
+
+.info{
+	height: 50px;
+	background-color: #00ffff50;
+	font-weight: bold;
+}
+
+.name, .buy, .sell{
+	width: 33%;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 24px;
+	border: 1px solid black;	
+}
